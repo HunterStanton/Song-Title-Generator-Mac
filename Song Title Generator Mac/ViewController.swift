@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var AdjectiveLabel: NSTextField!
+    @IBOutlet weak var NounLabel: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +24,11 @@ class ViewController: NSViewController {
         }
     }
 
+    @IBAction func GenerateTitlePressed(_ sender: Any)
+    {
+        AdjectiveLabel.stringValue = TitleDictionary.adjectives[Int(arc4random_uniform(UInt32(TitleDictionary.adjectives.count)))]
+        NounLabel.stringValue = TitleDictionary.nouns[Int(arc4random_uniform(UInt32(TitleDictionary.nouns.count)))]
+    }
 
 }
 

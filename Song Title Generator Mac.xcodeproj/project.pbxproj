@@ -35,6 +35,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CCC082F1E4CECF3003E9203 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				7CCED0891E46851100939334 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		7CCC08301E4CECF8003E9203 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7CCED08B1E46851100939334 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7CCC08311E4CECFD003E9203 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7CCED08D1E46851100939334 /* Assets.xcassets */,
+				7CCED0921E46851100939334 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7CCC08321E4CED04003E9203 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7CCED08F1E46851100939334 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		7CCC08331E4CED1C003E9203 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7CCC082D1E4CE5A1003E9203 /* TitleDictionary.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		7CCED07D1E46851100939334 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +95,11 @@
 		7CCED0881E46851100939334 /* Song Title Generator Mac */ = {
 			isa = PBXGroup;
 			children = (
-				7CCED0891E46851100939334 /* AppDelegate.swift */,
-				7CCED08B1E46851100939334 /* ViewController.swift */,
-				7CCC082D1E4CE5A1003E9203 /* TitleDictionary.swift */,
-				7CCED08D1E46851100939334 /* Assets.xcassets */,
-				7CCED08F1E46851100939334 /* Main.storyboard */,
-				7CCED0921E46851100939334 /* Info.plist */,
+				7CCC08331E4CED1C003E9203 /* Classes */,
+				7CCC08321E4CED04003E9203 /* Storyboards */,
+				7CCC08311E4CECFD003E9203 /* Resources */,
+				7CCC08301E4CECF8003E9203 /* Controllers */,
+				7CCC082F1E4CECF3003E9203 /* Delegates */,
 			);
 			path = "Song Title Generator Mac";
 			sourceTree = "<group>";

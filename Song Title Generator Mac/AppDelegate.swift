@@ -20,6 +20,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
+    
+    // Kill the application after the window closes.
+    // TODO: Don't do this. Mac apps aren't supposed to be like Windows apps. Need to fix.
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool {
+        return true
+    }
 
 
 }

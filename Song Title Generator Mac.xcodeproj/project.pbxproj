@@ -41,6 +41,7 @@
 				7CCED0891E46851100939334 /* AppDelegate.swift */,
 			);
 			name = Delegates;
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		7CCC08301E4CECF8003E9203 /* Controllers */ = {
@@ -49,6 +50,7 @@
 				7CCED08B1E46851100939334 /* ViewController.swift */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		7CCC08311E4CECFD003E9203 /* Resources */ = {
@@ -58,6 +60,7 @@
 				7CCED0921E46851100939334 /* Info.plist */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		7CCC08321E4CED04003E9203 /* Storyboards */ = {
@@ -66,6 +69,7 @@
 				7CCED08F1E46851100939334 /* Main.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		7CCC08331E4CED1C003E9203 /* Classes */ = {
@@ -74,13 +78,14 @@
 				7CCC082D1E4CE5A1003E9203 /* TitleDictionary.swift */,
 			);
 			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7CCED07D1E46851100939334 = {
 			isa = PBXGroup;
 			children = (
-				7CCED0881E46851100939334 /* Song Title Generator Mac */,
 				7CCED0871E46851100939334 /* Products */,
+				7CCED0881E46851100939334 /* Song Title Generator Mac */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +101,10 @@
 			isa = PBXGroup;
 			children = (
 				7CCC08331E4CED1C003E9203 /* Classes */,
-				7CCC08321E4CED04003E9203 /* Storyboards */,
-				7CCC08311E4CECFD003E9203 /* Resources */,
 				7CCC08301E4CECF8003E9203 /* Controllers */,
 				7CCC082F1E4CECF3003E9203 /* Delegates */,
+				7CCC08311E4CECFD003E9203 /* Resources */,
+				7CCC08321E4CED04003E9203 /* Storyboards */,
 			);
 			path = "Song Title Generator Mac";
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				7CCED0901E46851100939334 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -290,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Song Title Generator Mac/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator Mac/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-Mac";
@@ -304,7 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "Song Title Generator Mac/Info.plist";
+				INFOPLIST_FILE = "Song Title Generator Mac/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.HunterStanton.Song-Title-Generator-Mac";
